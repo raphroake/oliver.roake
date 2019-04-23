@@ -1,0 +1,409 @@
+
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+
+b, strong {
+    font-weight: 700
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    display: list-item;
+    list-style: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, td, th {
+    font-weight: 400;
+    vertical-align: top;
+    text-align: left
+}
+
+q {
+    quotes: none
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+q:after, q:before {
+    content: '';
+    content: none
+}
+
+small, sub, sup {
+    font-size: 20%;
+}
+
+sub, sup {
+    line-height: 1;
+    left: -18px;
+    position: relative;
+    vertical-align: relative;
+}
+
+sub {
+    bottom: -.35em
+}
+
+sup {
+    top: -.80em;
+    font-size: 0.25em;
+    font-weight: 400;
+}
+
+svg {
+    overflow: hidden;
+}
+
+input, button, submit { 
+    border:none; }
+
+@font-face {
+    font-family: untitled;
+    src: url(assets/fonts/UntitledSerifTest-Regular.woff);
+}
+
+@font-face {
+    font-family: untitled-m;
+    src: url(assets/fonts/UntitledSerifTest-Medium.woff);
+}
+
+@font-face {
+    font-family: untitled-b;
+    src: url(assets/fonts/UntitledSerifTest-Bold.woff);
+}
+
+
+
+@font-face {
+    font-family: cinetype;
+    src: url(assets/fonts/GT-Cinetype-Trial-Mono.otf);
+}
+
+@font-face {
+    font-family: pitch;
+    src: url(assets/fonts/PitchSansTest-Regular.woff);
+}
+
+
+@font-face {
+    font-family: nb;
+    src: url(assets/fonts/NB-International-Mono-Webfont.ttf);
+}
+
+@font-face {
+    font-family: founders;
+    src: url(assets/fonts/FoundersGrotTest-Light.woff);
+}
+
+
+@font-face {
+    font-family: tiempos;
+    src: url(assets/fonts/TiemposFineTest-Light.woff);
+}
+
+@font-face {
+    font-family: basis;
+    src: url(assets/fonts/basis_grotesque_pro_regular.otf);
+}
+
+
+
+
+
+
+h1 {
+    color: black;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-size: 20vw;
+    font-family: "basis", "Arial", sans-serif;
+}
+
+
+h2 {
+    color: black;
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 3vw;
+    letter-spacing: 0em;
+    font-family: "untitled", "Arial", sans-serif;
+}
+
+h2:hover{
+}
+
+h3{
+    color: black;
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 5vw;
+/*    letter-spacing: -0.03em;*/
+    font-family: "basis", "Arial", sans-serif;
+}
+
+h4{
+    color: black;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    font-size: 8vw;
+    font-family: "basis", "Arial", sans-serif;
+}
+
+h4:hover{
+    font-style: normal;
+}
+
+h5{
+     color: black;
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 3vw;
+    letter-spacing: 0em;
+    font-family: "untitled-b", "Arial", sans-serif;
+}
+
+
+p {
+    font-family: "untitled", "Helvetica", serif;  
+    color: black;
+    font-weight: 100;
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+}
+
+.container{
+    background-color: darkseagreen;
+    width: 100vw;
+    height: 100vw;
+}
+
+
+.c1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 100px;
+    width: calc(100vw - 70px);
+}
+
+.c2{
+    float: left;
+    margin-top: 0px;
+    margin-left: 47vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.c3{
+    position: fixed;
+    float: left;
+    bottom: 0px;
+    padding: 20px;
+    margin-left:  0vw; 
+}
+
+.c4{
+    float: left;
+    bottom: 0px;
+    padding: 20px;
+    margin-left: 10vw;
+}
+
+.c5{
+    float: left;
+    margin-top: 0px;
+    margin-left: 70vw;
+    margin-bottom: 100px;
+}
+
+.image-1{
+    width: calc(87vw - 40px);
+    padding: 20px;
+    float: left;
+    margin-bottom: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.image-1:hover{
+    -webkit-filter: grayscale(100%);
+  	filter: grayscale(0%);
+}
+
+.image-2{
+    width: calc(40vw - 10px);
+    padding: 20px;
+    float: left;
+    margin-left: 0vw;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.image-2:hover{
+    -webkit-filter: grayscale(100%);
+  	filter: grayscale(0%);
+}
+
+.image-3{
+    width: calc(40vw - 10px);
+    padding: 20px;
+    float: left;
+    margin-left: 58vw;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.image-3:hover{
+    -webkit-filter: grayscale(100%);
+  	filter: grayscale(0%);
+    
+}
+
+
+.description-1{
+    float: left;
+    width: 20vw;
+    margin-bottom: 100px;
+    margin-left: 60vw;
+    margin-top: 10vw;
+}
+
+
+.description-2{
+/*    float: left;*/
+    width: 20vw;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.fixed{
+    position: fixed; 
+}
+
+.home{
+    float: left;
+    position: fixed;
+    right: 0px;
+    top: -10px;
+    padding: 20 20 00 20px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.indent{
+    margin-left: 3vw;
+}
+
+.b-indent{
+    float: right;
+/*    margin-left: 25vw;*/
+}
+
+
+
+
+/*/////BURGER MENU/////*/
+
+#menuToggle
+{
+  position: fixed;
+  display: block;
+  bottom: 1vw;
+  left: 1vw;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 8vw;
+  height: 8vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menu
+{
+  opacity: 0.9;
+  position: fixed;
+  width: 33vw;
+  height: 30vh;
+  bottom: 0px;
+  left: 0px;
+  transform-origin: 0% 0%;
+  transform: translate(0%, 100%);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+    
+}
+
+
+.details{
+    position: fixed;
+    left: 10vw;
+}
