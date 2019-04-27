@@ -155,7 +155,7 @@ input, button, submit {
 
 
 
-@media only screen and (min-device-width : 480px) {
+@media only screen and (min-device-width : 579px) {
 
 h1 {
     color: black;
@@ -461,16 +461,27 @@ p{
 }
     
 h1{
-       font-size: 50vw;  
-    }
+    font-size: 50vw;
+    color: black;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-family: "basis", "Arial", sans-serif;
+}
     
-    h6{
-        font-size: 50vw;
-    }
+h6{
+    color: black;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-size: 50vw;
+    font-family: "untitled", "Arial", sans-serif;
+
+}
     
 .image-1{
         width: calc(100vw - 40px);
-        padding: 20px;
+        margin-top: 50px;
 }
     
 .image-2{
@@ -478,50 +489,57 @@ h1{
     float: left;
 }
     
-    
+.c1{
+    transform: rotate(-90deg);
+    float: left;
+    padding: 20px;
+    margin-bottom: 30vw;
+    margin-top: 30vw;
+    width: calc(100vw - 70px);
+} 
 
 .c2{
     float: left;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
     
     
 .c4{
-        margin-left: 0vw;
+        margin-left: 20px;
         padding: 0px;
+}
+    
+.b-indent{
+    float: right;
 }
     
 .description-1{
     float: left;
-    width: 20vw;
+    width: 60vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 
 }
     
 .description-2{
-    float: right;
-    width: 50vw;
-    margin-top: 10vw;
+    float: left;
+    width: 60vw;
+    margin-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
     
 .description-4{
-    float: right;
-    width: 50vw;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    float: left;
+    width: 60vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }    
     
-.c1{
-    transform: rotate(-90deg);
-    float: left;
-    padding: 20px;
-    margin-bottom: 50vw;
-    margin-top: 30vw;
-    width: calc(100vw - 70px);
-}
+
     
 }
 
