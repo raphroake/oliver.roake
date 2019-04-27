@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 body, html{
     background-color: white;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 
@@ -210,8 +211,18 @@ h5{
 }
 
 
+h6 {
+    color: black;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-size: 20vw;
+    font-family: "untitled", "Arial", sans-serif;
+}
+
+
 p {
-    font-family: "untitled", "Helvetica", serif;  
+    font-family: "untitled", "Times", serif;  
     color: black;
     font-weight: 100;
     font-size: 1.1vw;
@@ -228,7 +239,7 @@ p {
 .c1{
     float: left;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 10vw;
     width: calc(100vw - 70px);
 }
 
@@ -266,7 +277,6 @@ p {
     width: calc(87vw - 40px);
     padding: 20px;
     float: left;
-    margin-bottom: 10px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -306,19 +316,43 @@ p {
 }
 
 
-.description-1{
+.intro{
     float: left;
     width: 20vw;
     margin-bottom: 100px;
-    margin-left: 60vw;
+    margin-left: 70vw;
     margin-top: 10vw;
+    padding: 20px;
+}
+
+.description-1{
+    float: left;
+    width: 10vw;
+    margin-bottom: 100px;
+    padding: 20px;
 }
 
 
 .description-2{
-/*    float: left;*/
-    width: 20vw;
+    float: left;
+    width: 10vw;
     margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.description-3{
+    float: left;
+    width: 10vw;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.description-4{
+    float: left;
+    width: 15vw;
+    margin-bottom: 100px;
+    margin-top: 100px;
     padding: 20px;
 }
 
