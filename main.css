@@ -67,7 +67,6 @@ a {
 }
 
 a:hover{
-    font-style: italic;
 }
 
 q:after, q:before {
@@ -104,52 +103,23 @@ input, button, submit {
     border:none; }
 
 @font-face {
-    font-family: untitled;
-    src: url(assets/fonts/UntitledSerifTest-Regular.woff);
+    font-family: untitled-sans-italic;
+    src: url(assets/fonts/UntitledSansWeb-RegularItalic.woff);
 }
 
 @font-face {
-    font-family: untitled-m;
-    src: url(assets/fonts/UntitledSerifTest-Medium.woff);
+    font-family: untitled-serif-italic;
+    src: url(assets/fonts/UntitledSerifWeb-RegularItalic.woff2);
 }
 
 @font-face {
-    font-family: untitled-b;
-    src: url(assets/fonts/UntitledSerifTest-Bold.woff);
-}
-
-
-
-@font-face {
-    font-family: cinetype;
-    src: url(assets/fonts/GT-Cinetype-Trial-Mono.otf);
+    font-family: untitled-sans;
+    src: url(assets/fonts/UntitledSansWeb-Regular.woff2);
 }
 
 @font-face {
-    font-family: pitch;
-    src: url(assets/fonts/PitchSansTest-Regular.woff);
-}
-
-
-@font-face {
-    font-family: nb;
-    src: url(assets/fonts/NB-International-Mono-Webfont.ttf);
-}
-
-@font-face {
-    font-family: founders;
-    src: url(assets/fonts/FoundersGrotTest-Light.woff);
-}
-
-
-@font-face {
-    font-family: tiempos;
-    src: url(assets/fonts/TiemposFineTest-Light.woff);
-}
-
-@font-face {
-    font-family: basis;
-    src: url(assets/fonts/basis_grotesque_pro_regular.otf);
+    font-family: untitled-serif;
+    src: url(assets/fonts/UntitledSerifWeb-Regular.woff2);
 }
 
 
@@ -161,9 +131,9 @@ h1 {
     color: black;
     font-weight: 100;
     line-height: .9;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.07em;
     font-size: 20vw;
-    font-family: "basis", "Arial", sans-serif;
+    font-family: "untitled-sans", "Arial", sans-serif;
 }
 
 
@@ -171,12 +141,13 @@ h2 {
     color: black;
     font-weight: 200;
     line-height: 1.2;
-    font-size: 3vw;
-    letter-spacing: 0em;
-    font-family: "untitled", "Arial", sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: -0.05em;
+    font-family: "untitled-sans", "Arial", sans-serif;
 }
 
 h2:hover{
+/*    font-family: "untitled-sans-italic";*/
 }
 
 h3{
@@ -185,7 +156,7 @@ h3{
     line-height: 1.2;
     font-size: 5vw;
 /*    letter-spacing: -0.03em;*/
-    font-family: "basis", "Arial", sans-serif;
+    font-family: "untitle-sans", "Arial", sans-serif;
 }
 
 h4{
@@ -194,7 +165,7 @@ h4{
     line-height: 1;
     letter-spacing: -0.05em;
     font-size: 8vw;
-    font-family: "basis", "Arial", sans-serif;
+    font-family: "untitled-serif", "Arial", sans-serif;
 }
 
 h4:hover{
@@ -207,7 +178,7 @@ h5{
     line-height: 1.2;
     font-size: 3vw;
     letter-spacing: 0em;
-    font-family: "untitled-b", "Arial", sans-serif;
+    font-family: "untitled-sans", "Arial", sans-serif;
 }
 
 
@@ -215,17 +186,18 @@ h6 {
     color: black;
     font-weight: 100;
     line-height: .9;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.0em;
     font-size: 20vw;
-    font-family: "untitled", "Arial", sans-serif;
+    font-family: "untitled-serif", "Arial", sans-serif;
 }
 
 
 p {
-    font-family: "untitled", "Times", serif;  
+    font-family: "untitled-serif", "Times", serif;  
     color: black;
     font-weight: 100;
-    font-size: 15px;
+    font-variant: normal;
+    font-size: 20px;
     line-height: auto;
 }
 
@@ -245,24 +217,26 @@ p {
 
 .c2{
     float: left;
-    margin-left: 47vw;
+    margin-left: 30vw;
     margin-top: 5vw;
+    margin-right: 60vw;
     margin-bottom: 5vw;
 }
 
 .c3{
-    position: fixed;
     float: left;
     bottom: 0px;
     padding: 20px;
-    margin-left:  0vw; 
+    margin-left: 20vw;
+    width: 40vw;
+    margin-bottom: 15vw;
 }
 
 .c4{
     float: left;
     bottom: 0px;
     padding: 20px;
-    margin-left: 10vw;
+    margin-left: 30vw;
     margin-bottom: 10vw;
 }
 
@@ -272,48 +246,48 @@ p {
     margin-left: 70vw;
     margin-bottom: 100px;
 }
+    
+.c6{
+    float: left;
+    padding: 20px;
+    width: 25vw;
+    margin-right: 3vw;
+    
+    }
+    
+.c7{
+    float: left;
+    padding: 20px;
+    width: 30vw;
+    margin-right: 3vw;
+    
+    }
 
 .image-1{
-    width: calc(87vw - 40px);
+    width: calc(67vw - 40px);
     padding: 20px;
     float: left;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
-.image-1:hover{
-    -webkit-filter: grayscale(100%);
-  	filter: grayscale(0%);
-}
 
 .image-2{
     width: calc(40vw - 10px);
     padding: 20px;
     float: left;
     margin-left: 0vw;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
-.image-2:hover{
-    -webkit-filter: grayscale(100%);
-  	filter: grayscale(0%);
-}
+
 
 .image-3{
     width: calc(40vw - 10px);
     padding: 20px;
     float: left;
     margin-left: 58vw;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+
 }
 
-.image-3:hover{
-    -webkit-filter: grayscale(100%);
-  	filter: grayscale(0%);
-    
-}
+
 
 
 .intro{
@@ -335,7 +309,7 @@ p {
 
 .description-2{
     float: left;
-    width: 10vw;
+    width: 20vw;
     margin-bottom: 5vw;
     margin-top: 5vw;
     padding: 20px;
@@ -382,68 +356,6 @@ p {
 
 
 
-/*/////BURGER MENU/////*/
-
-#menuToggle
-{
-  position: fixed;
-  display: block;
-  bottom: 1vw;
-  left: 1vw;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle input
-{
-  display: block;
-  width: 8vw;
-  height: 8vh;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
-
-
-#menu
-{
-  opacity: 0.9;
-  position: fixed;
-  width: 33vw;
-  height: 30vh;
-  bottom: 0px;
-  left: 0px;
-  transform-origin: 0% 0%;
-  transform: translate(0%, 100%);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-    
-}
-
-
-.details{
-    position: fixed;
-    left: 10vw;
-}
-
-
-}
 
 
 
@@ -504,6 +416,8 @@ h6{
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
+    
+
     
     
 .c4{
