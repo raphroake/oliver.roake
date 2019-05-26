@@ -125,7 +125,7 @@ input, button, submit {
 
 
 
-@media only screen and (min-device-width : 579px) {
+@media only screen and (min-device-width : 579px) and (max-device-width : 5000px) {
 
 h1 {
     color: black;
@@ -197,7 +197,7 @@ p {
     color: black;
     font-weight: 100;
     font-variant: normal;
-    font-size: 20px;
+    font-size: 15px;
     line-height: auto;
 }
 
@@ -236,14 +236,14 @@ p {
     float: left;
     bottom: 0px;
     padding: 20px;
-    margin-left: 30vw;
+    margin-left: 0vw;
     margin-bottom: 10vw;
 }
 
 .c5{
     float: left;
     margin-top: 0px;
-    margin-left: 70vw;
+    margin-left: 40vw;
     margin-bottom: 100px;
 }
     
@@ -252,20 +252,27 @@ p {
     padding: 20px;
     width: 25vw;
     margin-right: 3vw;
-    
     }
     
 .c7{
     float: left;
     padding: 20px;
-    width: 30vw;
+    width: 25vw;
     margin-right: 3vw;
     
+    }
+    
+.about{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+        
     }
 
 .image-1{
     width: calc(67vw - 40px);
     padding: 20px;
+    margin-left: 30vw;
     float: left;
 }
 
@@ -274,7 +281,8 @@ p {
     width: calc(40vw - 10px);
     padding: 20px;
     float: left;
-    margin-left: 0vw;
+    margin-left: 10vw;
+    margin-right: 50vw;
 }
 
 
@@ -286,6 +294,7 @@ p {
     margin-left: 58vw;
 
 }
+    
 
 
 
@@ -303,13 +312,13 @@ p {
     float: left;
     width: 10vw;
     margin-bottom: 5vw;
-    padding: 20px;
+    margin: 20px;
 }
 
 
 .description-2{
     float: left;
-    width: 20vw;
+    width: 18vw;
     margin-bottom: 5vw;
     margin-top: 5vw;
     padding: 20px;
@@ -329,6 +338,15 @@ p {
     margin-top: 5vw;
     padding: 20px;
 }
+    
+    .description-margin-1{
+        margin-left: 30vw;
+    }
+    
+      .description-margin-2{
+        margin-left: 10vw;
+    }
+
 
 .fixed{
     position: fixed; 
@@ -354,12 +372,12 @@ p {
 }
 
 
+}
 
 
 
 
-
-@media only screen and (max-width: 580px)
+@media only screen and (max-width: 550px)
 
 {
     
@@ -369,25 +387,41 @@ body{
     }
 
 p{
-       line-height: inherit;
+    line-height: inherit;
+    font-family: "untitled-serif";
 }
     
+    
 h1{
-    font-size: 50vw;
+    font-size: 45vw;
     color: black;
     font-weight: 100;
     line-height: .9;
     letter-spacing: -0.05em;
-    font-family: "basis", "Arial", sans-serif;
+    font-family: "untitled-sans", "Helvetica", "Arial", sans-serif;
 }
+    
+h2{
+    font-size: 5vw;
+    color: black;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-family: "untitled-sans", "Helvetica", "Arial", sans-serif;
+}
+    
+h4{
+    font-size: 7vw;
+    font-family: "untitled-serif", "Helvetica", "Arial", sans-serif;
+    }
     
 h6{
     color: black;
     font-weight: 100;
     line-height: .9;
-    letter-spacing: -0.05em;
-    font-size: 50vw;
-    font-family: "untitled", "Arial", sans-serif;
+    letter-spacing: -0.02em;
+    font-size: 45vw;
+    font-family: "untitled-serif", "Times New Roman", serif;
 
 }
     
@@ -399,7 +433,10 @@ h6{
 .image-2{
     width: calc(100vw - 40px);
     float: left;
+    margin-top: 50px;
 }
+    
+    
     
 .c1{
     transform: rotate(-90deg);
@@ -417,13 +454,43 @@ h6{
     margin-bottom: 5vw;
 }
     
-
-    
     
 .c4{
         margin-left: 20px;
         padding: 0px;
 }
+    
+    
+.c5{
+        margin: 20px;
+        margin-top: 50px;
+        margin-right: 40px; 
+    }    
+    
+.c6{
+        margin: 20px;
+        margin-top: 50px;
+        margin-right: 40px;
+    }    
+    
+    
+.c7{
+        margin: 20px;
+        margin-right: 40px;
+        
+    }
+    
+    .home{
+        float: right;
+        margin: 15px;
+        position: fixed;
+        right: 0px;
+    }
+    
+.about{
+        float: left;
+        margin-left: 20px;
+    }
     
 .b-indent{
     float: right;
@@ -442,17 +509,15 @@ h6{
     float: left;
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-bottom: 40px;
     padding-bottom: 0px;
 }
     
-.description-4{
-    float: left;
-    width: 60vw;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}    
-    
+    .indent{
+        margin-left: 30px;
+    }
+
 
     
 }
