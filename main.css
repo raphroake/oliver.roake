@@ -186,9 +186,9 @@ h6 {
     color: black;
     font-weight: 100;
     line-height: .9em;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.02em;
     font-size: 20vw;
-    font-family: "untitled-sans", "Arial", sans-serif;
+    font-family: "untitled-serif", "Arial", sans-serif;
 }
 
 
@@ -383,6 +383,7 @@ p {
     
 a {
     text-decoration: none;
+    color: none;
 }
     
     
@@ -424,7 +425,7 @@ h6{
     font-kerning: none;
     font-weight: 100;
     line-height: .9;
-    letter-spacing: -2em;
+    letter-spacing: -0.01em;
     font-size: 45vw;
     font-family: "untitled-serif", "Times New Roman", serif;
 
@@ -497,11 +498,9 @@ h6{
         margin-left: 20px;
     }
     
-/*
 .b-indent{
     float: right;
 }
-*/
     
 .description-1{
     float: left;
