@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body, html{
-    background-color: white;
+    background-color: #fbfbfb;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
@@ -185,10 +185,10 @@ h5{
 h6 {
     color: black;
     font-weight: 100;
-    line-height: .9;
-    letter-spacing: -0.0em;
+    line-height: .9em;
+    letter-spacing: -0.07em;
     font-size: 20vw;
-    font-family: "untitled-serif", "Arial", sans-serif;
+    font-family: "untitled-sans", "Arial", sans-serif;
 }
 
 
@@ -381,6 +381,10 @@ p {
 
 {
     
+a {
+    text-decoration: none;
+}
+    
     
 body{
 /*        background-color: red;*/
@@ -417,9 +421,10 @@ h4{
     
 h6{
     color: black;
+    font-kerning: none;
     font-weight: 100;
     line-height: .9;
-    letter-spacing: -0.02em;
+    letter-spacing: -2em;
     font-size: 45vw;
     font-family: "untitled-serif", "Times New Roman", serif;
 
@@ -492,9 +497,11 @@ h6{
         margin-left: 20px;
     }
     
+/*
 .b-indent{
     float: right;
 }
+*/
     
 .description-1{
     float: left;
